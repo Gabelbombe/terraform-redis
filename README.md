@@ -68,4 +68,6 @@ module "cache" {
 - `port`                        - Port of replication group leader
 - `endpoint`                    - Public DNS name of replication group leader
 
-0
+
+## Caveats
+- [Cluster Mode not supported](https://github.com/hashicorp/terraform/issues/9419)
