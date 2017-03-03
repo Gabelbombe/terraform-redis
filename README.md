@@ -35,9 +35,10 @@ module "cache" {
   alarm_memory_threshold = "10000000"
   alarm_actions          = ["${aws_sns_topic.global.arn}"]
 
-  project     = "Unknown"
-  environment = "Unknown"
-  costcenter  = "Unknown"
+  application = "Connect"
+  environment = "demo"
+  function    = "lawsuit"
+  costcenter  = "000000001"
 }
 ```
 
