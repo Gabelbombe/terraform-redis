@@ -43,6 +43,7 @@ module "cache" {
 ```
 
 ## Variables
+
 - `vpc_id`                      - ID of VPC meant to house the cache
 - `application`                 - Name of the app making use of the cluster               (default: `Unknown`)
 - `environment`                 - Name of environment the cluster is targeted for         (default: `Unknown`)
@@ -63,6 +64,7 @@ module "cache" {
 
 
 ## Outputs
+
 - `id`                          - The replication group ID
 - `cache_security_group_id`     - Security group ID of the cache cluster
 - `port`                        - Port of replication group leader
@@ -70,4 +72,5 @@ module "cache" {
 
 
 ## Caveats
+
 - [Cluster Mode not supported](https://github.com/hashicorp/terraform/issues/9419)
