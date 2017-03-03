@@ -37,7 +37,7 @@ module "cache" {
 
   application = "Connect"
   environment = "demo"
-  function    = "lawsuit"
+  function    = "app"
   costcenter  = "000000001"
 }
 ```
